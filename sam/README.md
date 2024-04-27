@@ -27,6 +27,7 @@ Publish the website in the given URL.
 ## PROGRAM :
 ```
 calc.html
+
 <html>
 <html lang="en">
 <head>
@@ -82,6 +83,7 @@ calc.html
 </html>
 
 index.js
+
 let screen = document.getElementById('screen');
 buttons = document.querySelectorAll('button');
 let screenValue = '';
@@ -109,6 +111,7 @@ for (item of buttons) {
 }
 
 style.css
+
 .container {
     text-align: center;
     margin-top: 23px;
@@ -169,10 +172,9 @@ button {
 .color {
     color: rgb(10, 10, 11);
 }
-```
+
 
 ## OUTPUT:
-![alt text](<Screenshot 2024-04-27 164626.png>)
-![alt text](<Screenshot 2024-04-27 164633.png>)
+
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
